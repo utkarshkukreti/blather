@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
      "lib/blather/core_ext/active_support.rb",
      "lib/blather/core_ext/active_support/inheritable_attributes.rb",
      "lib/blather/core_ext/eventmachine.rb",
+     "lib/blather/core_ext/ipaddr.rb",
      "lib/blather/core_ext/nokogiri.rb",
      "lib/blather/errors.rb",
      "lib/blather/errors/sasl_error.rb",
@@ -85,7 +86,7 @@ Gem::Specification.new do |s|
      "lib/blather/stream/features/tls.rb",
      "lib/blather/stream/parser.rb",
      "lib/blather/xmpp_node.rb",
-     "lib/test.rb"
+     #"lib/test.rb"
   ]
   s.homepage = %q{http://github.com/sprsquish/blather}
   s.rdoc_options = ["--charset=UTF-8"]

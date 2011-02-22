@@ -55,7 +55,7 @@ at_exit do
   end
 
   def run(options)
-    $stdin.reopen "/dev/null"
+    #$stdin.reopen "/dev/null"
 
     if options[:log]
       log = File.new(options[:log], 'a')
